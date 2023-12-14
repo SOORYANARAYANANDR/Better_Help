@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #efedf0;
+    backdrop-filter: blur(0px);
+    background-image: url('../../public/images/blue1.jpeg');
+    background-size:cover;
+}
+
+
+.components{
+    margin: 0rem;
+    text-align: center;
+    
+}
+
+.mainText {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    margin-top: 6.8rem;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #F0EEED, 0 0 3em #858193, 0 0 0.2em #888398;
+}
+
+.mainText h2{
+    margin-top: 0rem;
+    font-size: 1.3rem;
+    color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* text-shadow: 1px 1px 2px #F0EEED, 0 0 0em #7D1935, 0 0 0em #7D1935; */
+}
+
+.Cards{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    /* color:#888398 !important ; */
+}
+
+
+.nav{
+    
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0rem 1rem;
+    margin-bottom: 0px;
+
+    /* box-shadow: 20px 7px  20px -6px #7D1935; */
+    
+}
+
+.site-title{
+    font-size: 2rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+
+.middle-nav-elements{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05rem;
+}
+
+.right-nav-elements{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.nav li.active{
+    border-style: solid;
+    margin: 0;
+    border-width: 0 0 6px 0;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 6px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+ 
+
+
+.nav li:hover{
+    border-style: solid;
+    margin: 0;
+    border-width: 0 0 6px 0;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 6px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.css-o69gx8-MuiCardMedia-root {
+    height: 400px;
+    width: 325px;
+    object-fit:cover;
+    object-position: 20%;
+    /* box-shadow: 250px 100px  450px -6px #f286f3; */
+}
+
+.div-quote{
+    /* background-color: #B42B51; */
+    /* box-shadow: 2px 1px  9px 0px #666464; */
+    margin-top: 7rem;
+    backdrop-filter: blur(5000px);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* .topContainer{
+    display: flex;
+    flex: auto;
+
+} */
+
+.carousel{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footer{
+    /* background-color: #7D1935; */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: none;
+}
+
+.Mainbox{
+    font-family: 'Rubik' , sans-serif;
+    /* margin: 10px auto; */
+    width: 100%;;
+    background-color: #355b8d65;
+    /* background-image: url('../../public/images/blue1.jpeg'); */
+    backdrop-filter: blur(3px);
+    background-size:auto;
+    border-radius: 5px;
+}
+
+.greetText h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #011720;
+    /* text-shadow: 1px 1px 10px #F0EEED, 0 0 3em #ffffff, 0 0 0.2em #ffffff; */
+}
+
+.greetText h2{
+    font-weight: 400;
+    color: #094258;
+    /* text-shadow: 1px 1px 30px #F0EEED, 0 0 3em #ffffff, 0 0 0.2em #ffffff; */
+}
+
+.secondContainer{
+    margin: 0;
+    
+}
+customButton{
+    font-weight: 900;
+    background-color: aqua;
+}
+
+.signoutBtn{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    margin-top: -55px;
+    background-color: #0c526e;
+}
+
